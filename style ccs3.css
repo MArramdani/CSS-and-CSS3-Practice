@@ -1,0 +1,33 @@
+div.round{
+    -webkit-border-radius: 24px;
+    border-radius: 24px;
+    border-width: 1px;
+    border-color: cornflowerblue;
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+}
+div.bot_rounded{
+    border-radius:0px 0px 50px 0px;
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+    border-width: 2px;
+}
+div.shad{
+    width: 300px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: darkkhaki;
+    box-shadow: 10px 10px 5px 1px blue;
+}
+div.multi{
+    width: 300px;
+    height: 100px;
+    background-color: #9ACD32;
+    box-shadow: 0 0 10px 4px #FF6347, 0 0 10px 30px #FFDAB9, 30px 0 20px 30px #B0E0E6;
+
+    margin-left:30px;
+    margin-top:30px;
+}
+    

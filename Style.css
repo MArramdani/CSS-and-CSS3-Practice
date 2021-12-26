@@ -1,0 +1,167 @@
+h1{ 
+    color: orange;
+}
+#intro{
+    color: white;
+    background-color: gray;
+}
+.first{
+    font-size: 200%;
+}
+.first em{
+    /* this is a comment about decendat: style only works for em inside .first */
+    color: pink;
+    background-color: gray;
+}
+
+p.gothic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p.lucida{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+}
+p.huge{
+    font-size:xx-large;
+}
+p.italic{
+    font-style: italic;
+    border-width: 4px;
+    border-color: rgb(96, 180, 70);
+    border-style:inset;
+}sss
+p.thick{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p.small-cap{
+    font-variant: small-caps;
+}
+p.salmon{
+    color: salmon;
+    letter-spacing: 4px;
+    
+}
+p.right{
+    text-align: right;
+    text-transform: capitalize;
+}
+p.left{
+    word-spacing: 10px;
+    text-align: left;
+}
+p.justify{
+    text-align: justify;
+    text-indent: 2cm;
+
+}
+p.nowrao{
+    white-space: nowrap;
+}
+td.top {
+    vertical-align: top;
+}
+td.middle {
+    vertical-align: middle;
+}
+td.bottom {
+    vertical-align: bottom;
+}
+span.power{
+    vertical-align: super;
+}
+span.refer{
+    vertical-align:sub;
+}
+/*            DIV -*********************************************************************/
+div.main {
+    height: 150px; width: 400px;
+    background-color: LightSkyBlue;
+    display: inline-table;
+}
+
+div.boxed{
+    border-width: 4px;
+    border-style: double;
+    border-color: tomato;
+    width: 4cm;
+    height: 4cm;
+    padding: 0.2cm;
+    background-color: yellow;
+}
+div.scroll{
+    background-color: chartreuse;
+
+    float: left;
+    overflow: scroll;
+    width: 100px;
+    height: 100px;
+    scroll-behavior: smooth;
+}
+
+div.blue {
+    z-index: 3;
+    position: relative;
+    background-color: #8EC4D0;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+}
+div.red {
+    z-index: 2;
+    position: relative;
+    background-color: #FF4D4D;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+.mid {
+    display: table-cell;
+    vertical-align: middle;
+}
+p.deco{
+    text-decoration: underline;
+}
+h2.shade{
+    text-shadow: 5px 2px 3px red;
+}
+
+body{
+    background-image: url("Pictures/plenio.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ul{
+    list-style-image: url("Pictures/yellow.jpg");
+    list-style-position: inside;
+}
+table{
+    border-spacing: 60px 10px;
+    table-layout: auto;
+}
+caption{
+    caption-side: bottom;
+}
+a:hover{
+    color: yellow;
+}
+a:link{
+    text-decoration: none;
+}
+span.help{
+    cursor: wait;
+}
+p{
+    cursor: pointer;
+}
+p.pos{
+    position: fixed;
+    top: 30px;
+    right: 5px;
+    color: red;
+}
