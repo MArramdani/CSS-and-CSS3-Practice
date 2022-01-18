@@ -49,3 +49,10 @@ p.text_shadow{
     text-shadow: 2px 4px 3px #FF6347,-2px -4px 3px green;
     font-size: large;
 }
+
+#parent p:first-child{
+    color: greenyellow;
+}
+#parent p:last-child{
+    color:indianred;
+}
