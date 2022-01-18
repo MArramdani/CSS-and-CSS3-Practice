@@ -56,3 +56,15 @@ p.text_shadow{
 #parent p:last-child{
     color:indianred;
 }
+
+p.pseudo::first-line{
+    color: blue;
+}
+p.pseudo::first-letter{
+    color: rgb(128, 0, 79);
+}
+
+p.pseudo::selection{
+    background-color: limegreen;
+    color: peru;
+}
