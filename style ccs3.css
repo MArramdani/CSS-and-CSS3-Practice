@@ -44,3 +44,8 @@ box-shadow:0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
 padding: 20px 0;
 min-width: 100px; 
 }
+
+p.text_shadow{
+    text-shadow: 2px 4px 3px #FF6347,-2px -4px 3px green;
+    font-size: large;
+}
