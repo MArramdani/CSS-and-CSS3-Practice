@@ -30,4 +30,17 @@ div.multi{
     margin-left:30px;
     margin-top:30px;
 }
-    
+ul.inline_ul li.inline_li{
+    display: inline-block;
+    padding: 10px; 
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+}   
+nav.inline_nav{
+display: inline-block;
+box-shadow:0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+padding: 20px 0;
+min-width: 100px; 
+}
