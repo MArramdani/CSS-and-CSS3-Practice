@@ -68,3 +68,9 @@ p.pseudo::selection{
     background-color: limegreen;
     color: peru;
 }
+p.wrap{
+    width: 200px;
+    height:fit-content;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
