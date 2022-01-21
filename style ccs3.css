@@ -74,3 +74,12 @@ p.wrap{
     border: 1px solid #000000;
     word-wrap: break-word;
 }
+
+@font-face {
+    font-family: lesthary;
+    src: url('fonts/lesthary.ttf');
+}
+
+p.font_face{
+    font-family: lesthary;
+}
