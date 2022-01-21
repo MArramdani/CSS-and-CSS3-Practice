@@ -83,3 +83,37 @@ p.wrap{
 p.font_face{
     font-family: lesthary;
 }
+
+div.lin_grad{
+    width: 400px;
+    height: 100px;
+    float: right;
+    margin: 1cm;
+    color: #FFFFFF;
+    background: -webkit-linear-gradient(right , blue, skyblue);
+}
+div.rainbow{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 1cm;
+    color: #FFFFFF;
+    background: -webkit-linear-gradient(top left, red,orange,yellow,green,blue,indigo,violet);
+}
+div.germany{
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin: 1cm;
+    color: #FFFFFF;
+    background: -webkit-linear-gradient(-89deg, black 35%, red 35%, yellow 75%);
+}
+div.rgb{
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin: 1cm;
+    color: white;
+    background: -webkit-repeating-linear-gradient(left,red,green, blue 50px);
+
+}
