@@ -117,3 +117,9 @@ div.rgb{
     background: -webkit-repeating-linear-gradient(left,red,green, blue 50px);
 
 }
+div.sun{
+    width: 500px;
+    height: 200px;
+    float: left;
+    background: -webkit-radial-gradient(top left, circle, yellow,orange, red, black 50%);
+}
