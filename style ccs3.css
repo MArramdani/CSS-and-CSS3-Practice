@@ -123,3 +123,27 @@ div.sun{
     float: left;
     background: -webkit-radial-gradient(top left, circle, yellow,orange, red, black 50%);
 }
+div.bg_size{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border: 1px solid #000000;
+    background: url(Pictures/earth.png) no-repeat;
+    background-size: 100px 100px;
+}
+div.cover{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border: 1px solid #000000;
+    background: url(Pictures/earth.png);
+    background-size: cover;
+}
+div.contained{
+    height: 200px;
+    width: 200px;
+    float: left;
+    border: 1px solid #000000;
+    background: url(Pictures/earth.png);
+    background-size: contain;
+}
