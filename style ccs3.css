@@ -147,3 +147,22 @@ div.contained{
     background: url(Pictures/earth.png);
     background-size: contain;
 }
+#pad_box{
+    
+ border:  2px dotted black;
+ padding: 20px;
+ padding-left: 20px;
+ -webkit-background-clip: padding-box;
+ background-clip: padding-box;
+ background: peru;
+}
+#content_box{
+    border:  2px dotted black;
+    padding: 20px;
+    padding-left: 20px;
+    -webkit-background-clip: border-box;
+    background-clip: content-box;
+    background: peru;
+    
+
+}
