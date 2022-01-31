@@ -167,3 +167,14 @@ div.contained{
     background-clip: content-box;
 
 }
+
+div.transparent_border{
+    border: 20px solid rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 200px;
+    position:absolute;
+    top: 80%;
+    left:50px;
+    background-color: seashell;
+}
