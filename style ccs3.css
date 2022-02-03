@@ -178,3 +178,12 @@ div.transparent_border{
     left:50px;
     background-color: seashell;
 }
+div.double_background{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    background-image: url(Pictures/lion.jpg), url(Pictures/forest.jpg);
+    background-position: bottom right, 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 40% 40%, 100% 100%;
+}
