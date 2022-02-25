@@ -191,14 +191,14 @@ div.double_background{
 #img1 {
     opacity: 1;
     filter: alpha(opacity=100);
-    idth: 200px;
+    width: 200px;
     height: 200px;
     position: absolute;
 }
 #img2 {
-    pacity: 0.5;
+    opacity: 0.5;
     filter: alpha(opacity=50);
-    idth: 200px;
+    width: 200px;
     height: 200px;
     position: absolute;
 }
