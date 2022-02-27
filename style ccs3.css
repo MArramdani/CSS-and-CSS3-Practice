@@ -138,6 +138,7 @@ div.cover{
     border: 1px solid #000000;
     background: url(Pictures/earth.png);
     background-size: cover;
+    position:relative;
 }
 div.contained{
     height: 200px;
@@ -146,8 +147,7 @@ div.contained{
     border: 1px solid #000000;
     background: url(Pictures/earth.png);
     background-size: contain;
-    position: absolute;
-}
+    position:relative;}
 #pad_box{
     
  border:  2px dotted black;
@@ -156,13 +156,13 @@ div.contained{
  background: peru;
  -webkit-background-clip: padding-box;
  background-clip: padding-box;
-
+ position:relative;
 }
 #content_box{
     border:  2px dotted black;
     padding: 20px;
     padding-left: 20px;
-    
+    position:relative;
     background: peru;
     -webkit-background-clip: border-box;
     background-clip: content-box;
@@ -174,7 +174,7 @@ div.transparent_border{
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     width: 200px;
-    position:absolute;
+    
     top: 80%;
     left:50px;
     background-color: seashell;
@@ -182,7 +182,7 @@ div.transparent_border{
 div.double_background{
     width: 500px;
     height: 600px;
-    position: absolute;
+    position: relative;
     background-image: url(Pictures/lion.jpg), url(Pictures/forest.jpg);
     background-position: bottom right, 0px 0px;
     background-repeat: no-repeat;
@@ -193,21 +193,21 @@ div.double_background{
     filter: alpha(opacity=100);
     width: 200px;
     height: 200px;
-    position: absolute;
+    
 }
 #img2 {
     opacity: 0.5;
     filter: alpha(opacity=50);
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: relative;
 }
 #img3 {
     opacity: 0.25;
     filter: alpha(opacity=25);
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: relative;
 }
 div.wide{
     width: 50px;
@@ -215,16 +215,36 @@ div.wide{
     background: purple;
     transition-timing-function: cubic-bezier(.68,.55,.08,1.15);
     transition: width 3s;
-    position: absolute;
+    position: relative;
 }
 div.wide:hover{
     width: 300px;
 }
 div.rotate{
+    position: relative;
     width: 300px;
     height: 100px;
     margin-top: 30px;
     background-color: darkblue;
     transform: rotate(10deg);
     -webkit-transform: rotate3d(10deg);
+}
+
+div.empty-div {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+div.green-div {
+    padding: 50px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotate(10deg);
+    transform-origin: 10% 90%;
+    -webkit-transform: rotate(10deg);
+    -webkit-transform-origin: 10% 90%;
 }
