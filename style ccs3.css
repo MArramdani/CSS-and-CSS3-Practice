@@ -266,3 +266,9 @@ div.skewed{
     transform: skew(-10deg);
     -webkit-transform: skew(-10deg);
 }
+div.scale{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    transform: scale(20,1.2);}
