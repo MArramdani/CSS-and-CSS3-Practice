@@ -248,3 +248,11 @@ div.green-div {
     -webkit-transform: rotate(10deg);
     -webkit-transform-origin: 10% 90%;
 }
+
+div.translated{
+    padding: 50px;
+    position: absolute;
+    background-color: #cdbe32;
+    transform:translate(100px, 50px);
+    -webkit-transform:translate(100px, 50px);
+}
