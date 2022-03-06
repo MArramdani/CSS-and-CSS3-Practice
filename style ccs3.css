@@ -256,3 +256,13 @@ div.translated{
     transform:translate(100px, 50px);
     -webkit-transform:translate(100px, 50px);
 }
+
+div.skewed{
+    position: relative;
+    padding: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: skew(-10deg);
+    -webkit-transform: skew(-10deg);
+}
