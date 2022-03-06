@@ -272,3 +272,9 @@ div.scale{
     height: 100px;
     background-color: gold;
     transform: scale(20,1.2);}
+div.multi{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform: rotate(20deg) translate(500px,10px);
+}
