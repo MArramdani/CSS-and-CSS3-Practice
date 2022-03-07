@@ -278,3 +278,23 @@ div.multi{
     height: 100px;
     transform: rotate(20deg) translate(500px,10px);
 }
+
+
+div.expand{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #FF6347;
+    animation-name: expanding;
+    animation-duration: 10s;
+}
+
+@keyframes expanding {
+    from {background-color: #FF6347;
+        width: 100px;
+        height: 100px;
+    }
+    to{background-color: #d7ff47;
+        width: 200px;
+        height: 200px;}
+}
