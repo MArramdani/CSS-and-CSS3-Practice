@@ -289,6 +289,8 @@ div.expand{
     animation-duration: 10s;
     animation-delay: 2s;
     animation-timing-function:ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes expanding {
