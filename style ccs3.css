@@ -286,9 +286,9 @@ div.expand{
     height: 100px;
     background-color: #FF6347;
     animation-name: expanding;
-    animation-duration: 10s;
+    animation-duration: 2s;
     animation-delay: 2s;
-    animation-timing-function:ease-out;
+    animation-timing-function:ease-in;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -298,7 +298,7 @@ div.expand{
         width: 100px;
         height: 100px;
     }
-    to{background-color: #d7ff47;
+    to{background-color:goldenrod;
         width: 200px;
         height: 200px;}
 }
