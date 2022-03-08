@@ -288,6 +288,7 @@ div.expand{
     animation-name: expanding;
     animation-duration: 10s;
     animation-delay: 2s;
+    animation-timing-function:ease-out;
 }
 
 @keyframes expanding {
