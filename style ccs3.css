@@ -338,3 +338,8 @@ img.saturate{
     height: 430px;
     filter: saturate(200%);
 }
+img.hue_rotate{
+    width: 300px;
+    height: 430px;
+    filter: hue-rotate(210deg);
+}
