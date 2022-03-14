@@ -343,3 +343,8 @@ img.hue_rotate{
     height: 430px;
     filter: hue-rotate(210deg);
 }
+img.negative{
+    width: 300px;
+    height: 430px;
+    filter: invert(100%);
+}
