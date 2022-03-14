@@ -363,3 +363,8 @@ img.contrast{
     height: 430px;
     filter: contrast(10%);
 }
+img.blurred{
+    width: 300px;
+    height: 430px;
+    filter: blur(10px);
+}
