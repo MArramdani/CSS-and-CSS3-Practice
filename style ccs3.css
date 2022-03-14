@@ -368,3 +368,8 @@ img.blurred{
     height: 430px;
     filter: blur(10px);
 }
+img.mix{
+    width: 300px;
+    height: 430px;
+    filter: contrast(90%) hue-rotate(3000deg) blur(1px);
+}
