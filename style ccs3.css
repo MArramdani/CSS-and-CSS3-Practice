@@ -348,3 +348,8 @@ img.negative{
     height: 430px;
     filter: invert(100%);
 }
+img.opacity{
+    width: 300px;
+    height: 430px;
+    filter: opacity(50%);
+}
