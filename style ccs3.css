@@ -358,3 +358,8 @@ img.bright{
     height: 430px;
     filter: brightness(130%);
 }
+img.contrast{
+    width: 300px;
+    height: 430px;
+    filter: contrast(10%);
+}
