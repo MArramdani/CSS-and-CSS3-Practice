@@ -353,3 +353,8 @@ img.opacity{
     height: 430px;
     filter: opacity(50%);
 }
+img.bright{
+    width: 300px;
+    height: 430px;
+    filter: brightness(130%);
+}
